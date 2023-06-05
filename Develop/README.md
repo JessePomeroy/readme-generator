@@ -1,10 +1,10 @@
 
-# no
-![Github license](https://img.shields.io/badge/license-mit,cc,gpl-blue.svg)
+# readme generator
+![Github license](https://img.shields.io/badge/license-mit-blue.svg)
 ## Description
-no
+a readme generator built upon node and inquirer
 ## Project Deployment
-no
+github.com/jessepomeroy/xyz
 ## Table of Contents
 * [Features](#features)
 * [Dependencies](#dependencies)
@@ -12,15 +12,14 @@ no
 * [Credits](#credits)
 * [Contact](#contact)
 ## Features
-no
+with this project, users can build professional readmes through the command line interface when prompted various questions with the inquirer module.
 ## Dependencies
-* no
+* node, inquirer, fs, path
 ## Usage
-no
+javascript, markdown
 ## Credits
 undefined
 ## Contact
-undefined
 If you have any questions or comments or would like to contribute to
-the project please contact me [here](mailto:no?subject=[GitHub]%20Dev%20Connect)
+the project please contact me [here](mailto:thinkingofview@gmail.com?subject=[GitHub]%20Dev%20Connect)
 
