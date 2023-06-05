@@ -80,7 +80,7 @@ function writeToFile(fileName, data) { // this will synchronously write data to 
 function init() {
   inquirer.prompt(questions).then((responses) => { // prompt the user with the questions array and gets the responses in a .then() block.
     console.log("writing to README.md file... please wait..."); // logs a message to indicate that the readme is being generated.
-    writeToFile("./README.md", genReadme({ ...responses })); // calls writeToFile() passing the path to the readme file, the results of genReadme, passing the responses object.
+    writeToFile("./README.md", generateMarkdown({ ...responses })); // calls writeToFile() passing the path to the readme file, the results of genReadme, passing the responses object.
   });
 }
 
